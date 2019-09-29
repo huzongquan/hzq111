@@ -8,6 +8,7 @@ import json
 import math
 import random
 import string
+import time
 from urllib import parse
 # data = {
 #     'name': 'ACME',
@@ -48,9 +49,24 @@ from urllib import parse
 # a = math.fabs(math.log10(0.4))
 # print(a)
 
-print(''.join(random.choice(string.ascii_uppercase + string.ascii_lowercase +string.digits) for _ in range(21)))
+# print(''.join(random.choice(string.ascii_uppercase + string.ascii_lowercase +string.digits) for _ in range(21)))
+#
+# print(string.ascii_uppercase)
+# print(string.ascii_lowercase)
+# print(string.digits)
+# print(random.choice(string.ascii_uppercase + string.ascii_lowercase +string.digits))
+# aa = False
+# while True:
+#     if not aa:
+#         time.sleep(1)
+#         print('aaaaaaa')
+#         pass
+#         continue
+#         print('xxxxxxxxxaa = xx')
 
-print(string.ascii_uppercase)
-print(string.ascii_lowercase)
-print(string.digits)
-print(random.choice(string.ascii_uppercase + string.ascii_lowercase +string.digits))
+a =  'PB1h4Raj50C15xjBjPKVD4ZlD3ouRF5cxMMXgZ96po4='
+print(len(a))
+b = 'MF2TrRkEgmSveN8YGTXLoW0XI/wxEOWDk6Ruz53Kh/M='
+print(len(b))
+c = 'TPSHG5t/B11sYdM8uDuy4NgNEFW1uzWiH3kKY3wtlDI='
+print(len(c))
