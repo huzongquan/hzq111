@@ -4,7 +4,7 @@ def test1():
     print('aaaa')
 def test2(params):
     print(params)
-    param = dict(params)
+    param = eval(params)
     a = param.get("a")
     print(a)
     b = param.get("b")
