@@ -4,9 +4,10 @@ def test1():
     print('aaaa')
 def test2(params):
     print(params)
-    a = params.get("a")
+    param = dict(params)
+    a = param.get("a")
     print(a)
-    b = params.get("b")
+    b = param.get("b")
     print(b)
 if __name__ == '__main__':
     test1()
